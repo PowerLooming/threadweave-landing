@@ -1,0 +1,6 @@
+# Cloudflare Pages configuration for ThreadWeave landing page
+# Deploy: npx wrangler pages deploy . --project-name=threadweave
+
+name = "threadweave"
+pages_build_output_dir = "."
+compatibility_date = "2026-07-07"
