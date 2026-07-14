@@ -23,7 +23,7 @@
     body {
       font-family: 'Source Sans 3', system-ui, -apple-system, sans-serif;
       font-weight: 300; color: var(--color-body); background: var(--color-bg);
-      line-height: 1.65; -webkit-font-smoothing: antialiased;
+      line-height: 1.65; font-size: 1.0625rem; -webkit-font-smoothing: antialiased;
     }
     .nav {
       position: sticky; top: 0; z-index: 100;
@@ -42,7 +42,7 @@
     h1 { font-size: 2.25rem; line-height: 1.15; letter-spacing: -0.02em; color: var(--color-heading); font-weight: 300; margin-bottom: 1rem; }
     h2 { font-size: 1.5rem; color: var(--color-heading); font-weight: 400; margin: 2.5rem 0 0.75rem; }
     h3 { font-size: 1.125rem; color: var(--color-heading); font-weight: 500; margin: 2rem 0 0.5rem; }
-    p { margin-bottom: 1rem; }
+    p { margin-bottom: 1rem; font-size: 1.0625rem; }
     .subtitle { font-size: 1.125rem; color: var(--color-body); font-style: italic; margin-bottom: 2rem; }
     em { font-style: italic; }
     strong { font-weight: 500; color: var(--color-heading); }
@@ -79,13 +79,13 @@
 
   <div class="container">
     <h1>Your Firm Already Knows the Answer. It Just Can't Find It.</h1>
-    <p class="subtitle">NASA lost the ability to rebuild the Saturn V rocket. Not because the blueprints vanished — but because the engineers who knew how to read them retired. Your organization has the same problem. And it's happening faster than you think.</p>
+    <p class="subtitle">NASA lost the ability to rebuild the Saturn V rocket. Not because the blueprints vanished. But because the engineers who knew how to read them retired. Your organization has the same problem. And it's happening faster than you think.</p>
 
-    <p>In the spring of 1961, President Kennedy stood before Congress and declared that America would put a man on the moon before the decade was out. The country had virtually no idea how to do it. What followed was the greatest engineering sprint in human history: the Apollo program, powered by the Saturn V — a 36-story tower of aluminum and ambition, five F-1 engines burning 15 tons of fuel per second, producing more power than 85 Hoover Dams combined. It was, and remains, the most powerful machine ever flown.</p>
+    <p>In the spring of 1961, President Kennedy stood before Congress and declared that America would put a man on the moon before the decade was out. The country had virtually no idea how to do it. What followed was the greatest engineering sprint in human history: the Apollo program, powered by the Saturn V: a 36-story tower of aluminum and ambition, five F-1 engines burning 15 tons of fuel per second, producing more power than 85 Hoover Dams combined. It was, and remains, the most powerful machine ever flown.</p>
 
     <p>The Saturn V flew 13 times. It never lost a single payload. It put 12 human beings on the surface of another world. And then, in 1973, after the final Skylab mission, the production lines stopped. The tooling was scrapped. The engineers went home.</p>
 
-    <p>Four decades later, in 2013, a new generation of NASA engineers decided they wanted to understand the F-1 engine — not just read about it in textbooks, but actually grasp how it was built. They had every blueprint. Thousands of pages. Meticulously preserved. Every bolt, every weld, every tolerance annotated in ink that had barely faded.</p>
+    <p>Four decades later, in 2013, a new generation of NASA engineers decided they wanted to understand the F-1 engine, not just read about it in textbooks, but actually grasp how it was built. They had every blueprint. Thousands of pages. Meticulously preserved. Every bolt, every weld, every tolerance annotated in ink that had barely faded.</p>
 
     <p><strong>They couldn't build it.</strong></p>
 
@@ -93,7 +93,7 @@
 
     <p>The blueprints were perfect. They were also useless.</p>
 
-    <p>NASA — with the largest budget of any scientific organization on Earth, with access to the brightest minds on the planet, with the original hardware literally sitting in museums — had to <strong>reverse-engineer its own technology</strong> like archaeologists trying to reconstruct a lost language from pottery shards.</p>
+    <p>NASA — with the largest budget of any scientific organization on Earth, with access to the brightest minds on the planet, with the original hardware literally sitting in museums, had to reverse-engineer its own technology like archaeologists trying to reconstruct a lost language from pottery shards.</p>
 
     <p>They succeeded, eventually. It took years. It cost millions. And it could have been avoided entirely if the knowledge hadn't walked out the door with the people who carried it in their heads.</p>
 
@@ -101,7 +101,7 @@
 
     <h2>The knowledge that walks out the door</h2>
 
-    <p>This is the problem ThreadWeave exists to solve. It's an open-source tool that connects to the systems your organization already uses — email, chat, documents — and builds a searchable memory of the decisions, answers, and scattered knowledge that would otherwise be lost when people leave. No forms to fill in. No wiki to maintain. It runs on your own hardware, passively weaving the threads of institutional knowledge into something durable.</p>
+    <p>This is the problem ThreadWeave exists to solve. It's an open-source tool that connects to the systems your organization already uses: email, chat, documents — and builds a searchable memory of decisions, answers and scattered knowledge that would otherwise be lost when people leave. No forms to fill in. No wiki to maintain. It runs on your own hardware, passively weaving the threads of institutional knowledge into something durable.</p>
 
     <p>It's free. It's AGPL-licensed. And it's built to catch what your organization knows before it retires.</p>
 
@@ -111,13 +111,13 @@
 
     <h2>Every organization has a Lars</h2>
 
-    <p>Every firm has a Lars. Not necessarily named Lars — Maria, David, Priya, whoever. The person who's been there since before the merger. The one who knows why the Stockholm office uses a different engagement letter structure than Copenhagen, even though nobody can find a written policy about it. The one who was in the room in 2008 when the big client almost walked, and knows exactly which partner said exactly the wrong thing — so nobody makes that mistake again.</p>
+    <p>Every firm has a Lars. Not necessarily named Lars. Maria, David, Priya, whoever. The person who's been there since before the merger. The one who knows why the Stockholm office uses a different engagement letter structure than Copenhagen, even though nobody can find a written policy about it. The one who was in the room in 2008 when the big client almost walked, and knows exactly which partner said exactly the wrong thing, so nobody makes that mistake again.</p>
 
     <p>Lars is the institutional memory. He's the reason a junior consultant can walk into a meeting with a client they've never met and somehow know about the sensitivity around the Q3 numbers. He's the person the new hires are told to "go ask." He's the safety net.</p>
 
     <p>Then Lars retires.</p>
 
-    <p>And someone opens a file from 2014 and stares at a spreadsheet that makes no sense — because the logic behind it was explained over coffee once, eight years ago, and nobody wrote it down. A client mentions a precedent from a project in 2011, and three senior people nod along, and not one of them actually remembers the details — but Lars would have. A competitive bid hinges on a methodology the firm developed in 2006, and the only person who could explain <em>why</em> it works hasn't worked there in a decade.</p>
+    <p>And someone opens a file from 2014 and stares at a spreadsheet that makes no sense, because the logic behind it was explained over coffee once, eight years ago, and nobody wrote it down. A client mentions a precedent from a project in 2011, and three senior people nod along, and not one of them actually remembers the details. But Lars would have. A competitive bid hinges on a methodology the firm developed in 2006, and the only person who could explain <em>why</em> it works hasn't worked there in a decade.</p>
 
     <p>This isn't a filing problem. It's not a documentation problem. It's an existential risk that compounds silently, invisibly, until one day it isn't invisible anymore.</p>
 
@@ -129,13 +129,13 @@
 
     <p>In the professional services sector — law, consulting, accounting, engineering, architecture — the numbers are stark. Over 40% of partners and senior practitioners are baby boomers. They are not "thinking about" retirement. They are actively doing it. The American Bar Association has been sounding the alarm for nearly a decade. The accounting industry's own professional bodies call it a "talent cliff." Consulting firms are running internal succession-planning task forces that produce reports nobody reads.</p>
 
-    <p>Here's what the data doesn't capture: when a senior practitioner retires, they don't take a filing cabinet. They don't take a laptop or a set of document templates. They take the thing that made them senior in the first place — the pattern recognition built over 30 years of hard-won experience. The ability to look at a client situation and say "this reminds me of something from 1999" — and be right. The instincts. The judgment. The stories.</p>
+    <p>Here's what the data doesn't capture: when a senior practitioner retires, they don't take a filing cabinet. They don't take a laptop or a set of document templates. They take the thing that made them senior in the first place: the pattern recognition built over 30 years of hard-won experience. The ability to look at a client situation and say "this reminds me of something from 1999", and be right. The instincts. The judgment. The stories.</p>
 
-    <p>And here's the part nobody talks about: the people replacing them are entering a different world. Junior practitioners today are more digitally fluent, more efficient, more comfortable with technology than any generation before them. But they also job-hop at rates that would have been unthinkable a generation ago. The average tenure of a junior associate at a large firm is now under three years. So even if you somehow convinced every senior partner to document everything they know before they leave — and you won't, because they're busy, and nobody got into this profession to write wikis — the people you're documenting it <em>for</em> might not be around long enough to absorb it.</p>
+    <p>And here's the part nobody talks about: the people replacing them are entering a different world. Junior practitioners today are more digitally fluent, more efficient, more comfortable with technology than any generation before them. But they also job-hop at rates that would have been unthinkable a generation ago. The average tenure of a junior associate at a large firm is now under three years. So even if you somehow convinced every senior partner to document everything they know before they leave, and you won't, because they're busy, and nobody got into this profession to write wikis, the people you're documenting it for might not be around long enough to absorb it.</p>
 
-    <p>The Thomson Reuters legal blog put it bluntly: <em>"When experienced staff leave, they take with them their best practices. If best practices exist only in the employees' minds or scattered on sticky notes, the chain of knowledge is irretrievably broken."</em></p>
+    <p>The Thomson Reuters legal blog put it bluntly: <em>"When experienced staff leave, they take with them their best practices. If best practices exist only in the employees' minds or scattered on sticky notes, the chain of knowledge is irretrievably broken."</p>
 
-    <p>The chain is breaking. Right now. Across thousands of firms, consultancies, and professional practices. And the dominant response — across the entire sector — is to do nothing and hope the problem solves itself.</p>
+    <p>The chain is breaking. Right now. Across thousands of firms, consultancies, and professional practices. And the dominant response — across the entire sector, is to do nothing and hope the problem solves itself.</p>
 
     <hr>
 
@@ -143,15 +143,15 @@
 
     <p>You have systems. Everyone does. SharePoint sites that nobody can navigate. Document management systems where files go to die. Microsoft 365 Copilot, if you're ahead of the curve.</p>
 
-    <p>Here's the uncomfortable truth: <strong>Copilot can only find what someone typed into a document.</strong></p>
+    <p>Here's the uncomfortable truth: Copilot can only find what someone typed into a document.</p>
 
-    <p>Copilot is an extraordinary piece of technology. It can search your emails, your Teams messages, your document library, and return answers in natural language. But it is searching the <em>explicit</em> record — the things people wrote down. It doesn't know that a precedent from 2012 applies perfectly to your current case unless someone authored a memo saying so. It doesn't know which clients are unhappy because of something that happened in a meeting three months ago unless someone typed meeting notes. It doesn't know the unwritten methodology your Oslo office uses that's subtly different from Stockholm's — the thing everyone just <em>knows</em> — because it was never written down.</p>
+    <p>Copilot is an extraordinary piece of technology. It can search your emails, your Teams messages, your document library, and return answers in natural language. But it is searching the <em>explicit</em> record, the things people wrote down. It doesn't know that a precedent from 2012 applies perfectly to your current case unless someone authored a memo saying so. It doesn't know which clients are unhappy because of something that happened in a meeting three months ago unless someone typed meeting notes. It doesn't know the unwritten methodology your Oslo office uses that's subtly different from Stockholm's. The thing everyone just <em>knows</em> — because it was never written down.</p>
 
     <p>Copilot is a brilliant librarian in a library missing half its books.</p>
 
-    <p>The <em>tacit</em> knowledge — the context, the connections, the stories, the instincts, the stuff people carry in their heads — is completely invisible to it. And in professional services, tacit knowledge <em>is</em> the product. It's what clients pay for. It's the difference between a firm that can bill premium rates and one that competes on price.</p>
+    <p>The <em>tacit</em> knowledge — the context, the connections, the stories, the instincts, the stuff people carry in their heads, is completely invisible to it. And in professional services, tacit knowledge <em>is</em> the product. It's what clients pay for. It's the difference between a firm that can bill premium rates and one that competes on price.</p>
 
-    <p>Microsoft knows this. They've been trying to crack knowledge management for two decades. SharePoint Areas. InfoPedia. Viva Topics — launched in 2022 with fanfare, quietly killed in 2025. Each attempt failed for the same fundamental reason: <strong>you cannot capture tacit knowledge by asking people to fill in forms.</strong> Nobody wakes up excited to document what they know. They wake up excited to <em>do the work</em>. The capture has to happen passively, in the background, as a natural byproduct of doing the work itself.</p>
+    <p>Microsoft knows this. They've been trying to crack knowledge management for two decades. SharePoint Areas. InfoPedia. Viva Topics — launched in 2022 with fanfare and quietly killed in 2025. Each attempt failed for the same fundamental reason: you cannot capture tacit knowledge by asking people to fill in forms. Nobody wakes up excited to document what they know. They wake up excited to <em>do the work</em>. The capture has to happen passively, in the background, as a natural byproduct of doing the work itself.</p>
 
     <p><strong>The knowledge management industry has been writing books about this problem for three decades.</strong></p>
 
@@ -171,7 +171,7 @@
 
     <p><strong>You do not insure against your organization forgetting what it knows.</strong></p>
 
-    <p>And yet the financial cost of that forgetting — in duplicated work, in missed opportunities, in client relationships that wither because the person who understood them left, in competitive bids lost because nobody remembers how the firm solved a similar problem in 2011 — dwarfs every insurance premium you pay. By an order of magnitude.</p>
+    <p>And yet the financial cost of that forgetting — in duplicated work, in missed opportunities, in client relationships that wither because the person who understood them left, in competitive bids lost because nobody remembers how the firm solved a similar problem in 2011 dwarfs every insurance premium you pay. By an order of magnitude.</p>
 
     <p>This isn't a software purchase. It's an insurance policy. The premium is attention. The coverage is knowing that when Maria retires, Maria's knowledge stays — not in a dusty wiki nobody reads, but woven into the fabric of how the organization works, accessible to the people who need it, when they need it.</p>
 
@@ -179,17 +179,17 @@
 
     <h2>How ThreadWeave works</h2>
 
-    <p>ThreadWeave connects to the tools you already use — Microsoft 365 or Google Workspace, your email, your documents, your meeting transcripts — and builds a knowledge graph passively, in the background. No one has to change how they work. No one has to fill in a form. The system listens, connects, and weaves the threads of institutional knowledge into something durable.</p>
+    <p>ThreadWeave connects to the tools you already use — Microsoft 365 or Google Workspace, your email, your documents, your meeting transcripts, and builds a knowledge graph passively, in the background. No one has to change how they work. No one has to fill in a form. The system listens, connects, and weaves the threads of institutional knowledge into something durable.</p>
 
-    <p>It runs <strong>on-premises, inside your walls.</strong> Your data never leaves. There is no cloud vendor who can change their pricing model and hold your organizational memory hostage.</p>
+    <p>It runs <strong>on-premises, inside your walls. Your data never leaves. There is no cloud vendor who can change their pricing model and hold your organizational memory hostage.</p>
 
-    <p>And crucially, ThreadWeave doesn't compete with Copilot or Gemini. <strong>It extends them.</strong> By feeding ThreadWeave's knowledge graph into your existing AI assistant's search surface, it suddenly gains access to the tacit knowledge it was blind to. It can answer "what was the approach we used for the Oslo project in 2019?" — not because someone wrote a memo, but because ThreadWeave connected emails, meeting transcripts, and document edits into a coherent thread of institutional memory.</p>
+    <p>And crucially, ThreadWeave doesn't compete with Copilot or Gemini. It extends them. By feeding ThreadWeave's knowledge graph into your existing AI assistant's search surface, it suddenly gains access to the tacit knowledge it was blind to. It can answer "what was the approach we used for the Oslo project in 2019?" — not because someone wrote a memo, but because ThreadWeave connected emails, meeting transcripts, and document edits into a coherent thread of institutional memory.</p>
 
     <p>Every thread, woven into memory.</p>
 
     <h3>The memory doesn't just store — it organizes</h3>
 
-    <p>Most knowledge tools dump everything into one flat, searchable pile. That works for a team of five. It fails for an organization of five hundred — because knowledge isn't flat. It belongs to people, to teams, to projects, to moments in time.</p>
+    <p>Most knowledge tools dump everything into one flat, searchable pile. That works for a team of five. It fails for an organization of five hundred, because knowledge isn't flat. It belongs to people, to teams, to projects, to moments in time.</p>
 
     <p>ThreadWeave is built on MemPalace, an open-source memory system that models knowledge the way organizations actually work. Think of it as a building:</p>
 
@@ -201,7 +201,7 @@
 
     <p><strong>Drawers</strong> hold the raw material — exactly what was said, verbatim, never altered. <strong>Closets</strong> hold compressed summaries, refined over time as more context accumulates.</p>
 
-    <p>This structure matters because it mirrors how people actually think about knowledge in an organization. When someone asks "what was the approach we used for the Oslo project in 2019?" — they're not asking for a keyword match. They're asking for something that belongs to a specific wing, a specific room, a specific moment in time. The structure makes the answer findable.</p>
+    <p>This structure matters because it mirrors how people actually think about knowledge in an organization. When someone asks "what was the approach we used for the Oslo project in 2019?", they're not asking for a keyword match. They're asking for something that belongs to a specific wing, a specific room, a specific moment in time. The structure makes the answer findable.</p>
 
     <h3>The connections between rooms</h3>
 
@@ -213,11 +213,11 @@
 
     <p><strong>Tunnels</strong> connect knowledge across wings. The tax team solved a regulatory classification problem in 2018 that the M&A team is about to encounter in 2026. Without a tunnel, nobody would ever know.</p>
 
-    <p>Tunnels are ThreadWeave's answer to "what did Lars say?" — not because anyone explicitly documented the cross-department connection, but because the system traced the information as it moved through the organization and built the link automatically.</p>
+    <p>Tunnels are ThreadWeave's answer to "what did Lars say?" Not because anyone explicitly documented the cross-department connection, but because the system traced the information as it moved through the organization and built the link automatically.</p>
 
     <h3>Knowledge that ages realistically</h3>
 
-    <p>Not all knowledge is equally relevant forever. A regulatory interpretation from 2018 might be perfectly current. A technical decision from 2018 might be ancient history. MemPalace models this with <strong>Living Memory</strong> — connections that get used grow stronger, connections that go unused gradually fade. The knowledge graph is temporal — it knows <em>when</em> things were true.</p>
+    <p>Not all knowledge is equally relevant forever. A regulatory interpretation from 2018 might be perfectly current. A technical decision from 2018 might be ancient history. MemPalace models this with Living Memory — connections that get used grow stronger, connections that go unused gradually fade. The knowledge graph is temporal, it knows <em>when</em> things were true.</p>
 
     <h3>Why this architecture matters</h3>
 
@@ -240,9 +240,9 @@
 
     <h2>Open source and free forever. On purpose.</h2>
 
-    <p>ThreadWeave is AGPL-licensed. Not because we couldn't think of a business model, but because <strong>organizational memory is infrastructure.</strong> It shouldn't belong to a vendor. It shouldn't have a per-seat price that multiplies when your firm grows. It shouldn't vanish if the company behind it gets acquired or pivots to "AI-powered something-or-other."</p>
+    <p>ThreadWeave is AGPL-licensed. Not because we couldn't think of a business model, but because organizational memory is infrastructure. It shouldn't belong to a vendor. It shouldn't have a per-seat price that multiplies when your firm grows. It shouldn't vanish if the company behind it gets acquired or pivots to "AI-powered something-or-other."</p>
 
-    <p>AGPL is a legal commitment. Nobody can take this code proprietary — not us, not a competitor, not a private equity firm that buys the repo. Your organization's knowledge belongs to your organization.</p>
+    <p>AGPL is a legal commitment. Nobody can take this code proprietary. Not us, not a competitor, not a private equity firm that buys the repo. Your organization's knowledge belongs to your organization.</p>
 
     <p>Free forever. For the global consultancy with 10,000 people. For the two-partner boutique. For the accounting firm in Bergen that's tired of asking "what did Lars say?"</p>
 
@@ -250,13 +250,13 @@
 
     <h2>What you can do today</h2>
 
-    <p><strong>If you lead an organization where expertise is the product:</strong> Take ten minutes. Walk down the hall. Ask the person who's been there the longest: <em>"What do you know that nobody else knows?"</em> If the answer makes you uncomfortable — good. That's the starting line.</p>
+    <p>If you lead an organization where expertise is the product: Take ten minutes. Walk down the hall. Ask the person who's been there the longest: <em>"What do you know that nobody else knows?"</em> If the answer makes you uncomfortable, good. That's the starting line.</p>
 
-    <p><strong>If you're responsible for technology:</strong> ThreadWeave runs on your existing M365 or Google Workspace stack, on-premises. It extends Copilot instead of competing with it. Open source. Free.</p>
+    <p>If you're responsible for technology: ThreadWeave runs on your existing M365 or Google Workspace stack, on-premises. It extends Copilot instead of competing with it. Open source. Free.</p>
 
-    <p><strong>If you're an engineer:</strong> The repository is open. Infrastructure-level work — the kind that matters decades after you ship it.</p>
+    <p>If you're an engineer: The repository is open. Infrastructure-level work — the kind that matters decades after you ship it.</p>
 
-    <p><strong>If you recognized the problem in your own field:</strong> Tell us what the concrete knowledge management challenge looks like in <em>your</em> world. Reach out. Open an issue. Help us build something that actually solves the problem you live with every day.</p>
+    <p>If you recognized the problem in your own field: Tell us what the concrete knowledge management challenge looks like in <em>your</em> world. Reach out. Open an issue. Help us build something that actually solves the problem you live with every day.</p>
 
     <hr>
 
