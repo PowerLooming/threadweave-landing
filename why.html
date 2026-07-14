@@ -6,6 +6,7 @@
   <title>Your Firm Already Knows the Answer — ThreadWeave</title>
   <meta name="description" content="NASA lost the ability to rebuild the Saturn V rocket — not because the blueprints vanished, but because the engineers who knew how to read them retired. Your organization has the same problem.">
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="/logo.svg">
   <style>
     :root {
       --color-accent: #0f766e;
@@ -34,7 +35,8 @@
       display: flex; align-items: center; justify-content: space-between;
       max-width: 1080px; margin: 0 auto; padding: 0.75rem 2rem;
     }
-    .nav-logo { font-size: 1.125rem; font-weight: 500; color: var(--color-heading); text-decoration: none; }
+    .nav-logo { font-size: 1.125rem; font-weight: 500; color: var(--color-heading); text-decoration: none; display: flex; align-items: center; gap: 0.5rem; }
+    .nav-logo-img { width: 28px; height: 28px; }
     .nav-links { display: flex; gap: 2rem; }
     .nav-links a { font-size: 0.875rem; font-weight: 400; color: var(--color-heading); text-decoration: none; }
     .nav-links a:hover { color: var(--color-accent); }
@@ -68,7 +70,7 @@
 <body>
   <nav class="nav">
     <div class="nav-inner">
-      <a href="/" class="nav-logo">ThreadWeave</a>
+      <a href="/" class="nav-logo"><img src="/logo.svg" alt="" class="nav-logo-img" /> ThreadWeave</a>
       <div class="nav-links">
         <a href="/">Home</a>
         <a href="/why">Why</a>
